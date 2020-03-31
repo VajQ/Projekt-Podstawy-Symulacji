@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="okienek" layoutX="90.0" layoutY="26.0" promptText="Liczba okienek" />
+      <TextField fx:id="maxWBanku" layoutX="90.0" layoutY="60.0" promptText="Max klientów w banku" />
+
+      <TextField fx:id="limit" layoutX="90.0" layoutY="92.0" promptText="Limit klientów" />
+      <TextField fx:id="powrot" layoutX="90.0" layoutY="124.0" promptText="Szansa powrotu" />
+
+   </children>
+</AnchorPane>
